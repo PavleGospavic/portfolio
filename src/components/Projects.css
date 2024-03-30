@@ -1,0 +1,20 @@
+.project-info {
+  position: relative;
+}
+
+.project-info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity for darkness */
+  backdrop-filter: blur(5px); /* Adjust blur intensity */
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.project-info:hover::before {
+  opacity: 1;
+}

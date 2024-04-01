@@ -11,7 +11,7 @@ export default function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
           My passion lies in creating innovative web apps that enhance user experiences and solve real-world challenges. 
-          I thrive to learn something new each day, improve my workflow and to take on new challenges.
+          I thrive to learn something new each day, improve my workflow, and to take on new challenges.
           </p>
           <div className="flex justify-center">
             <a
@@ -30,7 +30,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./laptop.png"
+            src="./portfolio/laptop.png"
           />
         </div>
       </div>
